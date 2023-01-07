@@ -1,3 +1,8 @@
+<script>
+	/** @type {import('./$types').PageData} */
+	export const prerender = true;
+</script>
+
 <h1>Hello,</h1>
 <h2>I'm activate-glacier-instinct</h2>
 <h2>Fullstack Web Developer learning smart contract development with Solidity</h2>

@@ -25,6 +25,8 @@ jobs:
             ${{ runner.os }}-
       - name: Install
         run: npm install --no-save
+      - name: Install Playwright
+        run: npx playwright install
       - name: Test
         run: npm run test
   build-and-deploy:

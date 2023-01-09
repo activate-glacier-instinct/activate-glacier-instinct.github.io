@@ -11,11 +11,4 @@
         top: 0;
         right: 0;
 	}
-	.layout__nav > a {
-		font-size: 1.5rem;
-		font-weight: 700;
-		text-transform: uppercase;
-		text-decoration: none;
-        color: var(--theme-color-tangerine)
-	}
 </style>

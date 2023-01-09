@@ -16,6 +16,6 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
-        color: var(--theme-color-mango)
+        color: var(--theme-color-tangerine)
 	}
 </style>

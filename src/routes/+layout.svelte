@@ -20,6 +20,7 @@
 		padding: 2rem;
 	}
 	:global(body) {
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 		--theme-color-mango: #f7b801;
 		--theme-color-purple: #3d348b;
 		--theme-color-purple-light: #7678ed;
@@ -37,6 +38,7 @@
 		color: var(--theme-color-purple-light);
 		transition: background-color 0.3s;
 		font-size: 16px;
+		font-family: 'Roboto', sans-serif;
 	}
 	:global(body.dark-mode) {
 		/* TODO: add dark-mode toggle */

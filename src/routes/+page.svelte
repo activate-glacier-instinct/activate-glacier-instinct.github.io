@@ -11,4 +11,4 @@
         font-style: normal;
         color: var(--theme-color-mango);
     }
-</style>
+</style>``

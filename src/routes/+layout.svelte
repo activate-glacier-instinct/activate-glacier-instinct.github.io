@@ -5,13 +5,14 @@
 	const sketch: Sketch = (p5) => {
 		let y = 100;
 		let z = 100;
-
+		let q = 100;
+		const padding = 8;
 		// The statements in the setup() function
 		// execute once when the program begins
 		p5.setup = () => {
 			// createCanvas must be the first statement
-			p5.createCanvas(p5.windowWidth, p5.windowHeight);
-			p5.stroke(255); // Set line drawing color to white
+			p5.createCanvas(p5.windowWidth - padding, p5.windowHeight - padding);
+			p5.stroke(247, 184, 1); // Set line drawing color to white
 			p5.frameRate(160);
 		};
 		// The statements in draw() are executed until the
@@ -19,28 +20,34 @@
 		// sequence and after the last line is read, the first
 		// line is executed again.
 		p5.draw = () => {
-			p5.background(0); // Set the background to black
-			y = y - 10;
-			z = z - 7.5;
-			if (y < 0) {
-				y = p5.height;
-			}
-			if (z < 0) {
-				z = p5.height;
-			}
-			p5.line(0, y, p5.width, y);
+			p5.background(48, 50, 61); // Set the background to black
 
-			p5.line(0, z, p5.width, z);
+			y = createLines(y, 10);
+			q = createLines(q, 5);
+			z = createLines(z, 7.5);
 		};
+		function createLines (linePoint: number, steps: number) {
+			linePoint -= steps
+			if (linePoint < 0) {
+				linePoint = p5.height
+			}
+			p5.line(0, linePoint, p5.width, linePoint);
+			return linePoint;
+		}
+
 	};
 </script>
 
+<svelte:window/>
+
 <Nav />
 
-<main class="layout__main">
-	<div class="layout_main__backdrop"><P5 {sketch} /></div>
-	<div class="layout_main_slot"><slot /></div>
-</main>
+<div>
+	<section class="layout_main__backdrop"><P5 {sketch} /></section>
+	<main class="layout__main">
+		<div class="layout_main_slot"><slot /></div>
+	</main>
+</div>
 
 <style>
 	.layout_main__backdrop {
@@ -49,6 +56,7 @@
 		left: 0; 
 		top: 0;
 		z-index: -1;
+		width: 500px;
 		/* width: 100vw;
 		height: 100vh; */
 	}
@@ -67,15 +75,15 @@
 
 	:global(body) {
 		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-		--theme-color-mango: #f7b801;
-		--theme-color-purple: #3d348b;
+		--theme-color-mango: rgb(247, 184, 1);
+		--theme-color-purple: rgb(61, 52, 139);
 		--theme-color-purple-light: #7678ed;
 		--theme-color-tangerine: #f18701;
-		--theme-color-jet-black: #30323d;
+		--theme-color-jet-black: rgb(48, 50, 61);
 		box-sizing: border-box;
 		margin: 0;
 		height: 100vh;
-		width: 100vw;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

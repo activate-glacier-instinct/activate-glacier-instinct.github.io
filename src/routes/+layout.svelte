@@ -9,19 +9,18 @@
 
 <div>
 	<Backdrop/>
-	<main class="layout__main">
+	<main class="layout">
 		<slot />
 	</main>
 </div>
 
 <style>
-	.layout__main {
+	.layout {
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
 		max-width: 1024px;
 		margin: 0 auto;
-		/* padding: 2rem; */
 	}
 
 	:global(body) {

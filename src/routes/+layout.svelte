@@ -43,26 +43,20 @@
 <Nav />
 
 <div>
-	<section class="layout_main__backdrop"><P5 {sketch} /></section>
+	<section class="layout__backdrop"><P5 {sketch} /></section>
 	<main class="layout__main">
-		<div class="layout_main_slot"><slot /></div>
+		<slot />
 	</main>
 </div>
 
 <style>
-	.layout_main__backdrop {
+	.layout__backdrop {
 		grid-area: 1 / 1;
 		position: absolute;
 		left: 0; 
 		top: 0;
 		z-index: -1;
 		width: 500px;
-		/* width: 100vw;
-		height: 100vh; */
-	}
-	.layout_main_slot {
-		grid-area: 1 / 1;
-		align-self: center;
 	}
 	.layout__main {
 		display: grid;

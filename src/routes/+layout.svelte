@@ -54,6 +54,6 @@
 		color: var(--theme-color-tangerine);
 	}
 	:global(a:hover) {
-		color: var(--theme-color-mango);
+		color: var(--theme-color-purple-light);
 	}
 </style>

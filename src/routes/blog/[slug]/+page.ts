@@ -1,7 +1,6 @@
-
 import type { PageLoad } from './$types';
 import { error } from '@sveltejs/kit';
-import blogPosts from './data.json'
+import blogPosts from '../data.json'
 
 type BlogPost = {
   title: string,
@@ -20,3 +19,6 @@ export const load: PageLoad = async function load({ params, url }) {
   };
 
 };
+
+export const prerender = true;
+export const trailingSlash = 'always';

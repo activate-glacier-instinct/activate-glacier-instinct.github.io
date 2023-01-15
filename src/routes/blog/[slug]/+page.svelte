@@ -8,7 +8,7 @@
 </script>
 
 <h1 class="accent">{post && post.title}</h1>
-<div>{@html post?.body}</div>
+<p>{@html post?.body}</p>
 
 <!-- TODO : read more about this  -->
 <!-- <svelte:component this={post} /> -->

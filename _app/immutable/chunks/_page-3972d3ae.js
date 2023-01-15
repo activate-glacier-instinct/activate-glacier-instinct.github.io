@@ -1,0 +1,1 @@
+import{b as o}from"./data-7dcbf126.js";const t=async function(){return{posts:o}},e=!0,s="always",n=Object.freeze(Object.defineProperty({__proto__:null,load:t,prerender:e,trailingSlash:s},Symbol.toStringTag,{value:"Module"}));export{n as _,t as l,e as p,s as t};

@@ -9,12 +9,14 @@
 	export let loadedData: Array<BlogLink>;
 	if (posts) {
 		// Handle schenario where posts are undefined
-		loadedData = posts
+		loadedData = posts;
 	}
 </script>
 
 {#await posts}
 	<!-- optionally show something while promise is pending -->
+{:then loadedData}
+	<!-- promise was fulfilled -->
 	<h1 class="accent">Blog</h1>
 	<p class="subtitle">Read more of my articles below:</p>
 	<ul class="urlList">

@@ -2,20 +2,19 @@
 	/** @type {import('./$types').PageData} */
 
 	import type { PageData } from './$types';
-	import type { BlogPosts } from './+page';
+	import type { BlogLink } from './+layout';
 	import BlogPostLink from '../../components/+link--blog.svelte';
 	export let data: PageData;
 	const { posts } = data;
-	export let loadedData: BlogPosts;
+	export let loadedData: Array<BlogLink>;
 	if (posts) {
+		// Handle schenario where posts are undefined
 		loadedData = posts
 	}
 </script>
 
 {#await posts}
 	<!-- optionally show something while promise is pending -->
-{:then posts}
-	<!-- promise was fulfilled -->
 	<h1 class="accent">Blog</h1>
 	<p class="subtitle">Read more of my articles below:</p>
 	<ul class="urlList">

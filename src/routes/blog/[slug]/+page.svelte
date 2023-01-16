@@ -3,12 +3,11 @@
 
 	import type { PageData } from './$types';
 	export let data: PageData;
-	const { post } = data;
-	
+	console.log('slug fe /post ::', data)
 </script>
 
-<h1 class="accent">{post && post.title}</h1>
-<p>{@html post?.body}</p>
+<!-- <h1 class="accent">{post && post.title}</h1>
+<p>{@html post?.body}</p> -->
 
 <!-- TODO : read more about this  -->
 <!-- <svelte:component this={post} /> -->

@@ -1,18 +1,16 @@
-# create-svelte
+![ci/cd workflow](https://github.com/activate-glacier-instinct/activate-glacier-instinct.github.io/actions/workflows/ci-cd.yml/badge.svg)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Portfolio site
 
-## Creating a project
+A simple portfolio to showcase work in web3 and a central location for future blog posts.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Tech stack
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Coming from a few years of doing React, I wanted to do something new and more webby. 
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Here come SvelteKit to save the day, a monolith JS framework that is use here to create a statically generated site.
+
+I picked Typescript for type-safety and will mostly stick to native CSS with isolated styling or BEM where necesary.
 
 ## Developing
 

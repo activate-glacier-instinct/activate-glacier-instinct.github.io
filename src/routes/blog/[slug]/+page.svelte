@@ -2,8 +2,8 @@
 	/** @type {import('./$types').PageData} */
 
 	import type { PageData } from './$types';
-	export let data: PageData;
-	console.log('slug fe /post ::', data)
+	// export let data: PageData;
+	// console.log('slug fe /post ::', data)
 </script>
 
 <!-- <h1 class="accent">{post && post.title}</h1>

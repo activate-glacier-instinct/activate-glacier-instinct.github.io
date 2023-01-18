@@ -1,6 +1,5 @@
 import type { PageLoad } from './$types';
 import { error } from '@sveltejs/kit';
-import blogPosts from '../data.json'
 
 async function fetchGithubFile(slug: string) {
   const URL = `https://api.github.com/repos/activate-glacier-instinct/100-days-of-code/contents/logs/${slug}.md`
@@ -19,9 +18,9 @@ async function fetchGithubFile(slug: string) {
 export const load: PageLoad = async function load({params, url}) {
   const { slug } = params;
 
-  const data = await fetchGithubFile(slug)
+  // const data = await fetchGithubFile(slug)
   
-  return data
+  // return data
 };
 
 export const prerender = true;

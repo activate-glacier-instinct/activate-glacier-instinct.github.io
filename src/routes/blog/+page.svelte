@@ -1,32 +1,19 @@
 <script lang="ts">
 	/** @type {import('./$types').PageData} */
 
-	import type { PageData } from './$types';
-	import type { BlogLink } from './+layout';
+	// import type { PageData } from './$types';
 	import BlogPostLink from '../../components/+link--blog.svelte';
-	export let data: PageData;
-	const { posts } = data;
-	export let loadedData: Array<BlogLink>;
-	if (posts) {
-		// Handle schenario where posts are undefined
-		loadedData = posts;
-	}
+	import { posts } from '$lib/shared/stores/blog'
 </script>
 
-{#await posts}
-	<!-- optionally show something while promise is pending -->
-{:then loadedData}
-	<!-- promise was fulfilled -->
-	<h1 class="accent">Blog</h1>
-	<p class="subtitle">Read more of my articles below:</p>
-	<ul class="urlList">
-		{#each loadedData as post}
-			<BlogPostLink title={post.name} githubUrl={post.html_url} />
-		{/each}
-	</ul>
-{:catch error}
-	<!-- optionally show something while promise was rejected -->
-{/await}
+<h1 class="accent">Blog</h1>
+<p class="subtitle">Read more of my articles below:</p>
+
+<ul class="urlList">
+	{#each $posts as post}
+		<BlogPostLink title={post.name} githubUrl={post.html_url} />
+	{/each}
+</ul>
 
 <style>
 	h1,

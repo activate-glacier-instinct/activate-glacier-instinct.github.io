@@ -50,6 +50,8 @@ jobs:
             ${{ runner.os }}-
       - name: Install
         run: npm install --no-save
+      - name: Sync data
+        run: npm run data:download
       - name: Build
         run: npm run build     
       - name: Deploy 

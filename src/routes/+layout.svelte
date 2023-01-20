@@ -20,6 +20,8 @@
 			'nav navcenter navright'
 			'left center right';
 		gap: 1rem;
+		overflow: hidden;
+		overflow-y: auto;
 	}
 	.fullscreen {
 		height: 100vh;
@@ -70,6 +72,6 @@
 		grid-area: center;
 		/* align-self: center; */
 		width: 100%;
-		padding-top: 8rem;
+		padding-top: 16rem;
 	}
 </style>

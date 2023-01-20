@@ -6,4 +6,10 @@
 </section>
 
 <style>
+	.layout {
+		grid-area: center;
+		width: 100%;
+		align-self: center;
+	}
+
 </style>

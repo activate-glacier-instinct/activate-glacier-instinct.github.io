@@ -5,23 +5,24 @@
 
 <svelte:window />
 
-<Nav />
-
-<div>
-	<Backdrop />
-	<main class="layout">
-		<slot />
-	</main>
+<Backdrop />
+<div class="container fullscreen">
+	<Nav />
+	<slot />
 </div>
 
 <style>
-	.layout {
+	.container {
 		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr;
-		max-width: 1024px;
-		margin: 0 auto;
-		height: min(100vh);
+		grid-template-columns: 1fr max(1025px) 1fr;
+		grid-template-rows: 5rem auto;
+		grid-template-areas:
+			'nav navcenter navright'
+			'left center right';
+		gap: 1rem;
+	}
+	.fullscreen {
+		height: 100vh;
 	}
 
 	:global(body) {
@@ -62,10 +63,13 @@
 		color: var(--theme-color-mango);
 	}
 	:global(.page) {
-		padding-top: 3rem;
+		grid-area: center;
+		width: 100%;
 	}
 	:global(.page--center) {
-		grid-area: 1 / 1;
-		align-self: center;
+		grid-area: center;
+		/* align-self: center; */
+		width: 100%;
+		padding-top: 8rem;
 	}
 </style>

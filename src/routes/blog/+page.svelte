@@ -5,13 +5,6 @@
 	export let data: PageData;
 	export const { posts } = data;
 	import BlogPostLink from '../../components/+link--blog.svelte';
-	// // import { posts } from '$lib/shared/stores/blog'
-	// let localPosts = [];
-	// if (posts) {
-	// 	for (const post in posts) {
-
-	// 	}
-	// }
 </script>
 
 <h1 class="accent">Blog</h1>

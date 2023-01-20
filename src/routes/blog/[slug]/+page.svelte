@@ -2,15 +2,10 @@
 	/** @type {import('./$types').PageData} */
 
 	import type { PageData } from './$types';
-	// export let data: PageData;
-	// console.log('slug fe /post ::', data)
+	export let data: PageData;
 </script>
 
-<!-- <h1 class="accent">{post && post.title}</h1>
-<p>{@html post?.body}</p> -->
-
-<!-- TODO : read more about this  -->
-<!-- <svelte:component this={post} /> -->
+<article>{@html data?.html}</article>
 
 <style>
 	h1,

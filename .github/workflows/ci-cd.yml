@@ -49,7 +49,7 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
       - name: Install
-        run: npm install --no-save
+        run: npm install --no-save --legacy-peer-deps
       - name: Sync data
         run: npm run data:download
       - name: Build

@@ -3,12 +3,12 @@
 	import Backdrop from '../components/+backdrop.svelte';
 </script>
 
-<svelte:window/>
+<svelte:window />
 
 <Nav />
 
 <div>
-	<Backdrop/>
+	<Backdrop />
 	<main class="layout">
 		<slot />
 	</main>
@@ -21,6 +21,7 @@
 		grid-template-rows: 1fr;
 		max-width: 1024px;
 		margin: 0 auto;
+		height: min(100vh);
 	}
 
 	:global(body) {
@@ -32,17 +33,17 @@
 		--theme-color-jet-black: rgb(48, 50, 61);
 		box-sizing: border-box;
 		margin: 0;
-		height: 100vh;
 		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		position: absolute;
 		background-color: var(--theme-color-jet-black);
 		color: var(--theme-color-purple-light);
 		transition: background-color 0.3s;
 		font-size: 16px;
 		font-family: 'Roboto', sans-serif;
+	}
+	:global(h1, h2, p) {
+		font-size: 2rem;
+		font-weight: 900;
 	}
 	:global(body.dark-mode) {
 		/* TODO: add dark-mode toggle */
@@ -55,5 +56,16 @@
 	}
 	:global(a:hover) {
 		color: var(--theme-color-purple-light);
+	}
+	:global(.accent) {
+		font-style: normal;
+		color: var(--theme-color-mango);
+	}
+	:global(.page) {
+		padding-top: 3rem;
+	}
+	:global(.page--center) {
+		grid-area: 1 / 1;
+		align-self: center;
 	}
 </style>

@@ -5,17 +5,19 @@
 	export let data: PageData;
 </script>
 
-<article>{@html data?.html}</article>
+<article class="page article">{@html data?.html}</article>
 
 <style>
-	h1,
-	h2,
-	p {
-		font-size: 2rem;
-		font-weight: 900;
-	}
-	.accent {
+	.article > h2 {
 		font-style: normal;
-		color: var(--theme-color-mango);
+		color: var(--theme-color-mango) !important;
 	}
+	.article {
+		font-size: 1.5rem;
+		font-weight: 700;
+		position: relative;
+		top: 0;
+		height: max-content;
+	}
+	
 </style>

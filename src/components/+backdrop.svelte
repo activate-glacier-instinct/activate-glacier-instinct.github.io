@@ -5,7 +5,7 @@
 		let y = 100;
 		let z = 100;
 		let q = 100;
-		const padding = 8;
+		const padding = 4;
 		// The statements in the setup() function
 		// execute once when the program begins
 		p5.setup = () => {

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="../../favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<meta http-equiv="content-security-policy" content="">
+		<link href="../../_app/immutable/assets/_layout-960a893f.css" rel="stylesheet">
+		<link rel="modulepreload" href="../../_app/immutable/start-7a37c12f.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/index-ca27565a.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons-a9f13a72.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/_layout.svelte-f9e35bb4.js">
+		<link rel="modulepreload" href="../../_app/immutable/modules/pages/_layout.ts-5612100c.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/_layout-79cb23d1.js">
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/blog/_layout.svelte-cf1ede6f.js">
+		<link rel="modulepreload" href="../../_app/immutable/modules/pages/blog/_layout.ts-d8fd843a.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/_layout-11cc11fd.js">
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/blog/_slug_/_page.svelte-cc55d0fb.js">
+		<link rel="modulepreload" href="../../_app/immutable/modules/pages/blog/_slug_/_page.ts-59ba0896.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/_page-9b360380.js">
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">
+
+
+
+
+<nav><ul class="nav_list svelte-1m9g5jx"><li class="nav_item svelte-1m9g5jx"><a href="/">home, </a></li>
+		<li class="nav_item svelte-1m9g5jx"><a href="/work">work, </a></li>
+		<li class="nav_item svelte-1m9g5jx"><a href="/blog">blog</a></li></ul>
+</nav>
+
+<div>
+
+<section class="backdrop svelte-vnf69g"><div style="display: block;" class="m-0"></div></section>
+	<main class="layout svelte-yhjvpo"><article><!-- HTML_TAG_START --><h1>100 Days Of Code - Log</h1>
+<p>================</p>
+<h2>Day 1</h2>
+<p>Date: 07/01/23</p>
+<p>================</p>
+<blockquote>
+<p>Goal: make a simple portfolio + blog site using SvelteKit for my anon account</p>
+</blockquote>
+<h3><strong>Today's Progress</strong>:</h3>
+<ul>
+<li>build was quite easy, just followed the docs
+- https://kit.svelte.dev/docs/creating-a-project
+<ul>
+<li>changed the main page html, but missing a style atm (another future task)</li>
+<li>started looking at CI/CD using Github Actions
+<ul>
+<li>first needed to build to static using an [adapter-static]
+(https://www.npmjs.com/package/@sveltejs/adapter-static)</li>
+<li>Svelte also has an <a href="https://www.npmjs.com/package/@sveltejs/adapter-auto">adapter-auto</a>
+<ul>
+<li>added setup by following the module docs</li>
+<li>getting an error about not all routes being prerendered (clue for the failed deployment)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>added a Github Action to build and deploy the site
+<ul>
+<li>currently not showing anything
+<ul>
+<li>probably relate to the above</li>
+<li>also there's no index.html in the /out folder</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><strong>Challenges</strong>:</h3>
+<ul>
+<li>CI/CD deployment is currently giving a 404, but ran out of time for today</li>
+</ul>
+<h3><strong>Thoughts</strong>:</h3>
+<ul>
+<li>Cloudflare Pages deployment works by default, worth a try</li>
+<li>SvelteKit seems really nice
+<ul>
+<li>Super fast to build</li>
+<li>The deployment Github Action I used was from a static Next.js build and worked just fine</li>
+</ul>
+</li>
+<li>Playwright tests are very nice</li>
+<li>/out folder is 93kb, love that I can build this precompressed with brotli and gzip</li>
+<li>Glad that I spent some time to make a bash script that allows me to configure the repos with my anon credentials
+<ul>
+<li>need to look at a VM in the future</li>
+</ul>
+</li>
+<li>Used the Github Projects view a lot
+<ul>
+<li>very, very nice to use as a board and as a spreadsheet</li>
+</ul>
+</li>
+<li>Also using a proper flow
+<ul>
+<li>Issues --&gt; Branches --&gt; PRs</li>
+</ul>
+</li>
+</ul>
+<h3><strong>Link to work:</strong></h3>
+<ul>
+<li><a href="https://github.com/activate-glacier-instinct/activate-glacier-instinct.github.io">Portfolio - activate-glacier-instinct</a></li>
+</ul>
+<!-- HTML_TAG_END --></article></main>
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="1f5fvwu">
+			import { start } from "../../_app/immutable/start-7a37c12f.js";
+
+			start({
+				env: {},
+				paths: {"assets":"","base":""},
+				target: document.querySelector('[data-sveltekit-hydrate="1f5fvwu"]').parentNode,
+				version: "1674253906229",
+				hydrate: {
+					node_ids: [0, 2, 6],
+					data: [null,null,null],
+					form: null,
+					error: null
+				}
+			});
+		</script>
+	</div>
+</body>
+
+</html>

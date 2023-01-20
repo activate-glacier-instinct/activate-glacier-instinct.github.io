@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"data:download": "git submodule update --init --recursive",
+		"data:download": "git submodule update --init --recursive --remote",
 		"build": "vite build",
 		"preview": "vite preview",
 		"test": "playwright test",
@@ -29,6 +29,7 @@
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.3",
 		"vite": "^4.0.0",
+		"vite-plugin-markdown": "^2.1.0",
 		"vitest": "^0.25.3"
 	},
 	"type": "module",

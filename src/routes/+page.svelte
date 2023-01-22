@@ -5,6 +5,3 @@
 		Read about my experience with <a href="/blog/100days-of-code/">100days-of-code</a>
 	</p>
 </section>
-
-<style>
-</style>

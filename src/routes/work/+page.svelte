@@ -4,12 +4,3 @@
 	<p>Bankless DAO: Bankless DAO Website</p>
 	<p>Bankless DAO: Smart Contract Book Club</p>
 </section>
-
-<style>
-	.layout {
-		grid-area: center;
-		width: 100%;
-		align-self: center;
-	}
-
-</style>

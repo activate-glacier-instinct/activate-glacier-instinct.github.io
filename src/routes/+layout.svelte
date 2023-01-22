@@ -48,9 +48,6 @@
 		font-size: 2rem;
 		font-weight: 900;
 	}
-	:global(body.dark-mode) {
-		/* TODO: add dark-mode toggle */
-	}
 	:global(a) {
 		font-size: 2rem;
 		font-weight: 900;

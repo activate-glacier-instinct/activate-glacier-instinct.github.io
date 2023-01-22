@@ -5,7 +5,11 @@ export const load: PageLoad = async function load() {
     const outputPosts = Object.keys(importRequests).map(reqLabel => {
         const labelParts = reqLabel.split('/')
         // Returns the last part or the title of the file
-        return labelParts[labelParts.length - 1] 
+        const lastPart = labelParts[labelParts.length - 1]
+        return {
+            path: lastPart,
+            title: lastPart.split('.')[0]
+        }
     });
     return {
         posts: outputPosts

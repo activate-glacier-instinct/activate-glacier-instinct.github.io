@@ -3,7 +3,8 @@ import { error } from '@sveltejs/kit';
 
 export const load: PageLoad = async function load({ params, url }) {
   const { slug } = params;
-  const importReq = import(`../../../content/100days-of-code/logs/${slug}.md`)
+  console.log('slug ::', slug)
+  const importReq = import(`../../../../content/100days-of-code/logs/${slug}.md`)
   const { html } = await importReq
   return { html }
 };

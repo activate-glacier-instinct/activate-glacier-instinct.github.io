@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Nav from '../components/+nav.svelte';
-	import Backdrop from '../components/+backdrop.svelte';
+	import Backdrop from '../components/atoms/+backdrop.svelte';
 </script>
 
 <svelte:window />

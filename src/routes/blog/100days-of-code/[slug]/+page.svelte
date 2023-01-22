@@ -7,6 +7,8 @@
 
 <article class="page article">{@html data?.html}</article>
 
+<template></template>
+
 <style>
 	.article {
 		font-size: 1.5rem;
@@ -15,5 +17,4 @@
 		top: 0;
 		height: max-content;
 	}
-	
 </style>

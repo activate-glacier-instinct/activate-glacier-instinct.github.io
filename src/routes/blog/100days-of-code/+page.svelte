@@ -4,7 +4,7 @@
 	import type { PageData } from './$types';
 	export let data: PageData;
 	export const { posts } = data;
-	import BlogPostLink1HDOC from '../../../components/+link--blog--1hdoc.svelte';
+	import BlogPostLink1HDOC from '../../../components/atoms/+link--blog--1hdoc.svelte';
 </script>
 
 <section class="page">

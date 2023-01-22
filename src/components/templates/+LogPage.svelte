@@ -1,0 +1,6 @@
+<script>
+    export let clocktitle = "Log Page"
+</script>
+...
+<h1>{clocktitle}</h1>
+...

@@ -4,7 +4,7 @@
 	import type { PageData } from './$types';
 	export let data: PageData;
 	export const { posts } = data;
-	import BlogPostLink from '../../components/+link--blog.svelte';
+	import BlogPostLink from '../../components/atoms/+link--blog.svelte';
 </script>
 
 <section>

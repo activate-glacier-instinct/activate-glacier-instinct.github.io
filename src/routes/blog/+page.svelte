@@ -13,7 +13,7 @@
 	
 	<ul class="urlList">
 		{#each posts as post}
-			<BlogPostLink title={post}/>
+			<BlogPostLink title={post.title}/>
 		{/each}
 	</ul>
 </section>

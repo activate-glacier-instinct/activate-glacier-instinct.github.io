@@ -1,0 +1,1 @@
+const e=[{title:"100days-of-code",slug:"100days-of-code/"}],o=async function(){return{posts:e}},t=!0,s="always",l=Object.freeze(Object.defineProperty({__proto__:null,load:o,prerender:t,trailingSlash:s},Symbol.toStringTag,{value:"Module"}));export{l as _,o as l,t as p,s as t};

@@ -44,7 +44,7 @@
 		font-size: 16px;
 		font-family: 'Roboto', sans-serif;
 	}
-	:global(h1, h2, p) {
+	:global(h1, h2, h3, p, li) {
 		font-size: 2rem;
 		font-weight: 900;
 	}

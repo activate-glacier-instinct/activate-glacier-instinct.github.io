@@ -7,8 +7,6 @@
 
 <article class="page article">{@html data?.html}</article>
 
-<template></template>
-
 <style>
 	.article {
 		font-size: 1.5rem;
@@ -16,5 +14,11 @@
 		position: relative;
 		top: 0;
 		height: max-content;
+	}
+	.article :global(h2) {
+		font-size: 5rem;
+		font-style: normal;
+		color: var(--theme-color-mango);
+		margin: 2rem 0;
 	}
 </style>

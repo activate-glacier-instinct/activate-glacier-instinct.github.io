@@ -58,8 +58,10 @@
 		color: var(--theme-color-purple-light);
 	}
 	:global(.accent) {
+		font-size: 5rem;
 		font-style: normal;
 		color: var(--theme-color-mango);
+		margin: 2rem 0;
 	}
 	:global(.page) {
 		grid-area: center;
@@ -69,6 +71,6 @@
 		grid-area: center;
 		/* align-self: center; */
 		width: 100%;
-		padding-top: 16rem;
+		padding-top: 14rem;
 	}
 </style>

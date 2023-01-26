@@ -3,20 +3,37 @@
 
 	import type { PageData } from './$types';
 	export let data: PageData;
+
+	import Card from '../../components/molecules/Card/+Card.svelte';
 	export const { cards } = data;
+	
 </script>
 
-<section class="page page--center">
+<section class="page screen">
 	<h1 class="accent">Work Experience</h1>
-	<ul>
+	<ul class="card-list">
 		{#each cards as card}
-			<li>
-				<article>
-					<p>{card.title}</p>
-					<p>{card.where}</p>
-					<p>{card.type}</p>
-				</article>
-			</li>
+			<Card cardData={card}/>
 		{/each}
 	</ul>
 </section>
+
+<style>
+	.card-list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+		gap: 1.5rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		height: 100%;
+		width: 100%;
+	}
+	.page.screen {
+		display: flex;
+		flex-direction: column;
+		height: calc(90vh - 5rem);
+		padding-bottom: 5rem;
+	}
+</style>

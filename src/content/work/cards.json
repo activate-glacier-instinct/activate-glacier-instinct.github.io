@@ -1,27 +1,32 @@
 [
     {
-        "title": "Bankless Loans",
-        "where": "Bankless DAO",
-        "type": "Contributor"
-    },
-    {
-        "title": "Bankless DAO Website",
-        "where": "Bankless DAO",
-        "type": "Contributor"
-    },
-    {
         "title": "#dev-guild: Smart Contract Book Club",
         "where": "Bankless DAO",
-        "type": "Organiser"
+        "type": "Organiser",
+        "cardSize": "regular"
     },
     {
-        "title": "Freshman",
+        "title": "Sophomore Track",
         "where": "LearnWeb3 DAO",
-        "type": "Education"
+        "type": "Education",
+        "cardSize": "regular"
     },
     {
         "title": "Ethereum Developer Bootcamp",
         "where": "Alchemy University",
-        "type": "Education"
+        "type": "Education",
+        "cardSize": "regular"
+    },
+    {
+        "title": "Bankless DAO Website",
+        "where": "Bankless DAO",
+        "type": "Contributor",
+        "cardSize": "hero"
+    },
+    {
+        "title": "Bankless Loans",
+        "where": "Bankless DAO",
+        "type": "Contributor",
+        "cardSize": "regular"
     }
 ]

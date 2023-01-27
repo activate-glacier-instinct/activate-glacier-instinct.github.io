@@ -36,7 +36,6 @@
 	"dependencies": {
 		"@sveltejs/adapter-static": "^1.0.1",
 		"p5-svelte": "^3.1.2",
-		"preact-tilt": "^1.0.2",
 		"vanilla-tilt": "^1.8.0"
 	}
 }

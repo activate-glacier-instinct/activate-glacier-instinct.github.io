@@ -2,23 +2,28 @@
 	/** @type {import('./$types').PageData} */
 
 	import type { PageData } from './$types';
-	import VanillaTilt from 'vanilla-tilt';
+	import Tilt from 'vanilla-tilt';
 	import { onMount } from 'svelte';
 	export let data: PageData;
-	export let rootList;
-	import Tilt from "preact-tilt";
 	import Card from '../../components/molecules/Card/+Card.svelte';
 	export const { cards } = data;
 
 	onMount(() => {
-		let cards: Array<HTMLElement> = document.querySelectorAll('.card') as Array<HTMLElement>
-		VanillaTilt.init(cards, {
-			glare: true
+		// TYPES: This was interesting:
+		// querySelectorAll => NodeListOf<HTMLElement>, which is an array-like structure but misses array features
+		// Array.from() => casts that array-like structure as an array
+		// finaly we need to recast each array element as HTMLElement eg Array<HTMLElement>
+		const cards = Array.from(document.querySelectorAll('.card')) as Array<HTMLElement>;
+		Tilt.init(cards, {
+			scale: 0.9,
+			perspective: 500,
+			glare: true,
+			'max-glare': 0.5
 		});
 	});
 </script>
 
-<section class="page screen" bind:this={rootList}>
+<section class="page screen">
 	<h1 class="accent">Work Experience</h1>
 	<ul class="card-list">
 		{#each cards as card}

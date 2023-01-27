@@ -11,64 +11,14 @@
     "file": "_app/immutable/assets/_layout-94265be9.css",
     "src": "src/routes/+layout.css"
   },
-  ".svelte-kit/generated/nodes/7.js": {
-    "file": "_app/immutable/chunks/7-88e38012.js",
-    "src": ".svelte-kit/generated/nodes/7.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-27871e2e.js",
-      "src/routes/work/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/6.js": {
-    "file": "_app/immutable/chunks/6-98458e7b.js",
-    "src": ".svelte-kit/generated/nodes/6.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-ad08f0a4.js",
-      "src/routes/blog/100days-of-code/[slug]/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-9e132f3a.js",
-    "src": ".svelte-kit/generated/nodes/5.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-84970f93.js",
-      "src/routes/blog/100days-of-code/+page.svelte"
-    ]
-  },
   "_singletons-a9f13a72.js": {
     "file": "_app/immutable/chunks/singletons-a9f13a72.js",
     "imports": [
       "_index-ca27565a.js"
     ]
   },
-  "_index-ca27565a.js": {
-    "file": "_app/immutable/chunks/index-ca27565a.js"
-  },
   "_preload-helper-41c905a7.js": {
     "file": "_app/immutable/chunks/preload-helper-41c905a7.js"
-  },
-  ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-e4aabf23.js",
-    "src": ".svelte-kit/generated/nodes/1.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
-    ]
-  },
-  "__layout-79cb23d1.js": {
-    "file": "_app/immutable/chunks/_layout-79cb23d1.js"
-  },
-  ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-973e8f37.js",
-    "src": ".svelte-kit/generated/nodes/2.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__layout-11cc11fd.js",
-      "src/routes/blog/+layout.svelte"
-    ]
   },
   ".svelte-kit/generated/nodes/3.js": {
     "file": "_app/immutable/chunks/3-197c2fd3.js",
@@ -87,8 +37,47 @@
       "src/routes/blog/+page.svelte"
     ]
   },
+  ".svelte-kit/generated/nodes/5.js": {
+    "file": "_app/immutable/chunks/5-92f81731.js",
+    "src": ".svelte-kit/generated/nodes/5.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-ff631157.js",
+      "src/routes/blog/100days-of-code/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/6.js": {
+    "file": "_app/immutable/chunks/6-27e46da0.js",
+    "src": ".svelte-kit/generated/nodes/6.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-b8459492.js",
+      "src/routes/blog/100days-of-code/[slug]/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-973e8f37.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__layout-11cc11fd.js",
+      "src/routes/blog/+layout.svelte"
+    ]
+  },
+  "__layout-79cb23d1.js": {
+    "file": "_app/immutable/chunks/_layout-79cb23d1.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-a9207635.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ca27565a.js",
+      "_singletons-a9f13a72.js"
+    ]
+  },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-d4704dc8.js",
+    "file": "_app/immutable/start-ff432a5d.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -107,6 +96,104 @@
       ".svelte-kit/generated/nodes/7.js"
     ]
   },
+  "_index-ca27565a.js": {
+    "file": "_app/immutable/chunks/index-ca27565a.js"
+  },
+  ".svelte-kit/generated/nodes/7.js": {
+    "file": "_app/immutable/chunks/7-88e38012.js",
+    "src": ".svelte-kit/generated/nodes/7.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-27871e2e.js",
+      "src/routes/work/+page.svelte"
+    ]
+  },
+  "__page-ff631157.js": {
+    "file": "_app/immutable/chunks/_page-ff631157.js",
+    "imports": [
+      "_preload-helper-41c905a7.js"
+    ],
+    "dynamicImports": [
+      "src/content/100days-of-code/logs/day01.md",
+      "src/content/100days-of-code/logs/day02.md",
+      "src/content/100days-of-code/logs/day03.md",
+      "src/content/100days-of-code/logs/day04.md",
+      "src/content/100days-of-code/logs/day05.md",
+      "src/content/100days-of-code/logs/day06.md",
+      "src/content/100days-of-code/logs/day07.md",
+      "src/content/100days-of-code/logs/day08.md",
+      "src/content/100days-of-code/logs/day09.md",
+      "src/content/100days-of-code/logs/day10.md",
+      "src/content/100days-of-code/logs/day11.md",
+      "src/content/100days-of-code/logs/day12.md",
+      "src/content/100days-of-code/logs/day13.md",
+      "src/content/100days-of-code/logs/day14.md",
+      "src/content/100days-of-code/logs/day15.md",
+      "src/content/100days-of-code/logs/day16.md",
+      "src/content/100days-of-code/logs/day17_BREAK.md",
+      "src/content/100days-of-code/logs/day18_BREAK.md",
+      "src/content/100days-of-code/logs/day19.md",
+      "src/content/100days-of-code/logs/day20.md"
+    ]
+  },
+  "__page-49d091ce.js": {
+    "file": "_app/immutable/chunks/_page-49d091ce.js"
+  },
+  "src/routes/blog/+layout.svelte": {
+    "file": "_app/immutable/components/pages/blog/_layout.svelte-d783a918.js",
+    "src": "src/routes/blog/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ca27565a.js"
+    ]
+  },
+  "__page-27871e2e.js": {
+    "file": "_app/immutable/chunks/_page-27871e2e.js"
+  },
+  "src/routes/+page.svelte": {
+    "file": "_app/immutable/components/pages/_page.svelte-9aceb281.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ca27565a.js"
+    ]
+  },
+  "__page-b8459492.js": {
+    "file": "_app/immutable/chunks/_page-b8459492.js",
+    "imports": [
+      "_preload-helper-41c905a7.js"
+    ],
+    "dynamicImports": [
+      "src/content/100days-of-code/logs/day01.md",
+      "src/content/100days-of-code/logs/day02.md",
+      "src/content/100days-of-code/logs/day03.md",
+      "src/content/100days-of-code/logs/day04.md",
+      "src/content/100days-of-code/logs/day05.md",
+      "src/content/100days-of-code/logs/day06.md",
+      "src/content/100days-of-code/logs/day07.md",
+      "src/content/100days-of-code/logs/day08.md",
+      "src/content/100days-of-code/logs/day09.md",
+      "src/content/100days-of-code/logs/day10.md",
+      "src/content/100days-of-code/logs/day11.md",
+      "src/content/100days-of-code/logs/day12.md",
+      "src/content/100days-of-code/logs/day13.md",
+      "src/content/100days-of-code/logs/day14.md",
+      "src/content/100days-of-code/logs/day15.md",
+      "src/content/100days-of-code/logs/day16.md",
+      "src/content/100days-of-code/logs/day17_BREAK.md",
+      "src/content/100days-of-code/logs/day18_BREAK.md",
+      "src/content/100days-of-code/logs/day19.md",
+      "src/content/100days-of-code/logs/day20.md"
+    ]
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-e4aabf23.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ]
+  },
   "src/routes/blog/100days-of-code/+page.svelte": {
     "file": "_app/immutable/components/pages/blog/100days-of-code/_page.svelte-523139c9.js",
     "src": "src/routes/blog/100days-of-code/+page.svelte",
@@ -118,193 +205,20 @@
   "__layout-11cc11fd.js": {
     "file": "_app/immutable/chunks/_layout-11cc11fd.js"
   },
-  "__page-49d091ce.js": {
-    "file": "_app/immutable/chunks/_page-49d091ce.js"
-  },
-  "__page-84970f93.js": {
-    "file": "_app/immutable/chunks/_page-84970f93.js",
-    "imports": [
-      "_preload-helper-41c905a7.js"
-    ],
-    "dynamicImports": [
-      "src/content/100days-of-code/logs/day01.md",
-      "src/content/100days-of-code/logs/day02.md",
-      "src/content/100days-of-code/logs/day03.md",
-      "src/content/100days-of-code/logs/day04.md",
-      "src/content/100days-of-code/logs/day05.md",
-      "src/content/100days-of-code/logs/day06.md",
-      "src/content/100days-of-code/logs/day07.md",
-      "src/content/100days-of-code/logs/day08.md",
-      "src/content/100days-of-code/logs/day09.md",
-      "src/content/100days-of-code/logs/day10.md",
-      "src/content/100days-of-code/logs/day11.md",
-      "src/content/100days-of-code/logs/day12.md",
-      "src/content/100days-of-code/logs/day13.md",
-      "src/content/100days-of-code/logs/day14.md",
-      "src/content/100days-of-code/logs/day15.md",
-      "src/content/100days-of-code/logs/day16.md",
-      "src/content/100days-of-code/logs/day17_BREAK.md",
-      "src/content/100days-of-code/logs/day18_BREAK.md",
-      "src/content/100days-of-code/logs/day19.md"
-    ]
-  },
-  "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-9aceb281.js",
-    "src": "src/routes/+page.svelte",
+  "src/routes/+layout.ts": {
+    "file": "_app/immutable/modules/pages/_layout.ts-5612100c.js",
+    "src": "src/routes/+layout.ts",
     "isEntry": true,
     "imports": [
-      "_index-ca27565a.js"
+      "__layout-79cb23d1.js"
     ]
   },
-  "__page-27871e2e.js": {
-    "file": "_app/immutable/chunks/_page-27871e2e.js"
-  },
-  "src/routes/blog/+layout.svelte": {
-    "file": "_app/immutable/components/pages/blog/_layout.svelte-d783a918.js",
-    "src": "src/routes/blog/+layout.svelte",
+  "src/routes/blog/+layout.ts": {
+    "file": "_app/immutable/modules/pages/blog/_layout.ts-d8fd843a.js",
+    "src": "src/routes/blog/+layout.ts",
     "isEntry": true,
     "imports": [
-      "_index-ca27565a.js"
-    ]
-  },
-  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-a9207635.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ca27565a.js",
-      "_singletons-a9f13a72.js"
-    ]
-  },
-  "__page-ad08f0a4.js": {
-    "file": "_app/immutable/chunks/_page-ad08f0a4.js",
-    "imports": [
-      "_preload-helper-41c905a7.js"
-    ],
-    "dynamicImports": [
-      "src/content/100days-of-code/logs/day01.md",
-      "src/content/100days-of-code/logs/day02.md",
-      "src/content/100days-of-code/logs/day03.md",
-      "src/content/100days-of-code/logs/day04.md",
-      "src/content/100days-of-code/logs/day05.md",
-      "src/content/100days-of-code/logs/day06.md",
-      "src/content/100days-of-code/logs/day07.md",
-      "src/content/100days-of-code/logs/day08.md",
-      "src/content/100days-of-code/logs/day09.md",
-      "src/content/100days-of-code/logs/day10.md",
-      "src/content/100days-of-code/logs/day11.md",
-      "src/content/100days-of-code/logs/day12.md",
-      "src/content/100days-of-code/logs/day13.md",
-      "src/content/100days-of-code/logs/day14.md",
-      "src/content/100days-of-code/logs/day15.md",
-      "src/content/100days-of-code/logs/day16.md",
-      "src/content/100days-of-code/logs/day17_BREAK.md",
-      "src/content/100days-of-code/logs/day18_BREAK.md",
-      "src/content/100days-of-code/logs/day19.md"
-    ]
-  },
-  "src/routes/blog/+page.svelte": {
-    "file": "_app/immutable/components/pages/blog/_page.svelte-be32298a.js",
-    "src": "src/routes/blog/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ca27565a.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-e8dae34e.js",
-    "src": ".svelte-kit/generated/nodes/0.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__layout-79cb23d1.js",
-      "src/routes/+layout.svelte"
-    ]
-  },
-  "src/content/100days-of-code/logs/day12.md": {
-    "file": "_app/immutable/chunks/day12-312e4e2d.js",
-    "src": "src/content/100days-of-code/logs/day12.md",
-    "isDynamicEntry": true
-  },
-  "src/content/100days-of-code/logs/day08.md": {
-    "file": "_app/immutable/chunks/day08-b30cc441.js",
-    "src": "src/content/100days-of-code/logs/day08.md",
-    "isDynamicEntry": true
-  },
-  "src/content/100days-of-code/logs/day09.md": {
-    "file": "_app/immutable/chunks/day09-b54bcb84.js",
-    "src": "src/content/100days-of-code/logs/day09.md",
-    "isDynamicEntry": true
-  },
-  "src/content/100days-of-code/logs/day10.md": {
-    "file": "_app/immutable/chunks/day10-c28ecf5b.js",
-    "src": "src/content/100days-of-code/logs/day10.md",
-    "isDynamicEntry": true
-  },
-  "src/content/100days-of-code/logs/day11.md": {
-    "file": "_app/immutable/chunks/day11-db48f6b7.js",
-    "src": "src/content/100days-of-code/logs/day11.md",
-    "isDynamicEntry": true
-  },
-  "src/content/100days-of-code/logs/day01.md": {
-    "file": "_app/immutable/chunks/day01-eab2a062.js",
-    "src": "src/content/100days-of-code/logs/day01.md",
-    "isDynamicEntry": true
-  },
-  "src/content/100days-of-code/logs/day07.md": {
-    "file": "_app/immutable/chunks/day07-4ea2a6c7.js",
-    "src": "src/content/100days-of-code/logs/day07.md",
-    "isDynamicEntry": true
-  },
-  "src/content/100days-of-code/logs/day03.md": {
-    "file": "_app/immutable/chunks/day03-799b3400.js",
-    "src": "src/content/100days-of-code/logs/day03.md",
-    "isDynamicEntry": true
-  },
-  "src/routes/work/+page.ts": {
-    "file": "_app/immutable/modules/pages/work/_page.ts-55164c5e.js",
-    "src": "src/routes/work/+page.ts",
-    "isEntry": true,
-    "imports": [
-      "__page-27871e2e.js"
-    ]
-  },
-  "src/content/100days-of-code/logs/day04.md": {
-    "file": "_app/immutable/chunks/day04-09b408c8.js",
-    "src": "src/content/100days-of-code/logs/day04.md",
-    "isDynamicEntry": true
-  },
-  "src/routes/blog/100days-of-code/+page.ts": {
-    "file": "_app/immutable/modules/pages/blog/100days-of-code/_page.ts-4bf54d98.js",
-    "src": "src/routes/blog/100days-of-code/+page.ts",
-    "isEntry": true,
-    "imports": [
-      "_preload-helper-41c905a7.js",
-      "__page-84970f93.js"
-    ]
-  },
-  "src/routes/blog/100days-of-code/[slug]/+page.ts": {
-    "file": "_app/immutable/modules/pages/blog/100days-of-code/_slug_/_page.ts-22abb581.js",
-    "src": "src/routes/blog/100days-of-code/[slug]/+page.ts",
-    "isEntry": true,
-    "imports": [
-      "_preload-helper-41c905a7.js",
-      "__page-ad08f0a4.js"
-    ]
-  },
-  "src/content/100days-of-code/logs/day06.md": {
-    "file": "_app/immutable/chunks/day06-64a236fe.js",
-    "src": "src/content/100days-of-code/logs/day06.md",
-    "isDynamicEntry": true
-  },
-  "src/routes/work/+page.svelte": {
-    "file": "_app/immutable/components/pages/work/_page.svelte-6d88aefe.js",
-    "src": "src/routes/work/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-ca27565a.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page-ac506844.css"
+      "__layout-11cc11fd.js"
     ]
   },
   "src/routes/blog/+page.ts": {
@@ -313,6 +227,32 @@
     "isEntry": true,
     "imports": [
       "__page-49d091ce.js"
+    ]
+  },
+  "src/routes/blog/100days-of-code/+page.ts": {
+    "file": "_app/immutable/modules/pages/blog/100days-of-code/_page.ts-1c9bba70.js",
+    "src": "src/routes/blog/100days-of-code/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_preload-helper-41c905a7.js",
+      "__page-ff631157.js"
+    ]
+  },
+  "src/routes/blog/100days-of-code/[slug]/+page.ts": {
+    "file": "_app/immutable/modules/pages/blog/100days-of-code/_slug_/_page.ts-43855df4.js",
+    "src": "src/routes/blog/100days-of-code/[slug]/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_preload-helper-41c905a7.js",
+      "__page-b8459492.js"
+    ]
+  },
+  "src/routes/work/+page.ts": {
+    "file": "_app/immutable/modules/pages/work/_page.ts-55164c5e.js",
+    "src": "src/routes/work/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "__page-27871e2e.js"
     ]
   },
   "src/routes/+layout.svelte": {
@@ -330,6 +270,41 @@
       "_app/immutable/assets/_layout-94265be9.css"
     ]
   },
+  "src/content/100days-of-code/logs/day01.md": {
+    "file": "_app/immutable/chunks/day01-eab2a062.js",
+    "src": "src/content/100days-of-code/logs/day01.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day02.md": {
+    "file": "_app/immutable/chunks/day02-db4f21f7.js",
+    "src": "src/content/100days-of-code/logs/day02.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day03.md": {
+    "file": "_app/immutable/chunks/day03-799b3400.js",
+    "src": "src/content/100days-of-code/logs/day03.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day04.md": {
+    "file": "_app/immutable/chunks/day04-09b408c8.js",
+    "src": "src/content/100days-of-code/logs/day04.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day10.md": {
+    "file": "_app/immutable/chunks/day10-c28ecf5b.js",
+    "src": "src/content/100days-of-code/logs/day10.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day11.md": {
+    "file": "_app/immutable/chunks/day11-db48f6b7.js",
+    "src": "src/content/100days-of-code/logs/day11.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day12.md": {
+    "file": "_app/immutable/chunks/day12-312e4e2d.js",
+    "src": "src/content/100days-of-code/logs/day12.md",
+    "isDynamicEntry": true
+  },
   "src/content/100days-of-code/logs/day13.md": {
     "file": "_app/immutable/chunks/day13-6cc2bc0b.js",
     "src": "src/content/100days-of-code/logs/day13.md",
@@ -345,45 +320,14 @@
     "src": "src/content/100days-of-code/logs/day15.md",
     "isDynamicEntry": true
   },
-  "src/content/100days-of-code/logs/day16.md": {
-    "file": "_app/immutable/chunks/day16-34cb4931.js",
-    "src": "src/content/100days-of-code/logs/day16.md",
-    "isDynamicEntry": true
-  },
-  "src/routes/blog/+layout.ts": {
-    "file": "_app/immutable/modules/pages/blog/_layout.ts-d8fd843a.js",
-    "src": "src/routes/blog/+layout.ts",
-    "isEntry": true,
-    "imports": [
-      "__layout-11cc11fd.js"
-    ]
-  },
-  "src/routes/+layout.ts": {
-    "file": "_app/immutable/modules/pages/_layout.ts-5612100c.js",
-    "src": "src/routes/+layout.ts",
-    "isEntry": true,
-    "imports": [
-      "__layout-79cb23d1.js"
-    ]
-  },
   "src/content/100days-of-code/logs/day18_BREAK.md": {
     "file": "_app/immutable/chunks/day18_BREAK-f51156ec.js",
     "src": "src/content/100days-of-code/logs/day18_BREAK.md",
     "isDynamicEntry": true
   },
-  "src/content/100days-of-code/logs/day17_BREAK.md": {
-    "file": "_app/immutable/chunks/day17_BREAK-18e31a05.js",
-    "src": "src/content/100days-of-code/logs/day17_BREAK.md",
-    "isDynamicEntry": true
-  },
-  "src/content/100days-of-code/logs/day02.md": {
-    "file": "_app/immutable/chunks/day02-db4f21f7.js",
-    "src": "src/content/100days-of-code/logs/day02.md",
-    "isDynamicEntry": true
-  },
-  "src/content/100days-of-code/logs/day19.md": {
-    "file": "_app/immutable/chunks/day19-d993e403.js",
-    "src": "src/content/100days-of-code/logs/day19.md",
+  "src/content/100days-of-code/logs/day20.md": {
+    "file": "_app/immutable/chunks/day20-6bd14566.js",
+    "src": "src/content/100days-of-code/logs/day20.md",
     "isDynamicEntry": true
   },
   "src/routes/blog/100days-of-code/[slug]/+page.svelte": {
@@ -397,9 +341,72 @@
       "_app/immutable/assets/_page-e7f97f03.css"
     ]
   },
+  "src/routes/work/+page.svelte": {
+    "file": "_app/immutable/components/pages/work/_page.svelte-6d88aefe.js",
+    "src": "src/routes/work/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ca27565a.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-ac506844.css"
+    ]
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-e8dae34e.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__layout-79cb23d1.js",
+      "src/routes/+layout.svelte"
+    ]
+  },
+  "src/content/100days-of-code/logs/day16.md": {
+    "file": "_app/immutable/chunks/day16-34cb4931.js",
+    "src": "src/content/100days-of-code/logs/day16.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day17_BREAK.md": {
+    "file": "_app/immutable/chunks/day17_BREAK-18e31a05.js",
+    "src": "src/content/100days-of-code/logs/day17_BREAK.md",
+    "isDynamicEntry": true
+  },
+  "src/routes/blog/+page.svelte": {
+    "file": "_app/immutable/components/pages/blog/_page.svelte-be32298a.js",
+    "src": "src/routes/blog/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ca27565a.js"
+    ]
+  },
   "src/content/100days-of-code/logs/day05.md": {
     "file": "_app/immutable/chunks/day05-a35642bc.js",
     "src": "src/content/100days-of-code/logs/day05.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day06.md": {
+    "file": "_app/immutable/chunks/day06-64a236fe.js",
+    "src": "src/content/100days-of-code/logs/day06.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day07.md": {
+    "file": "_app/immutable/chunks/day07-4ea2a6c7.js",
+    "src": "src/content/100days-of-code/logs/day07.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day09.md": {
+    "file": "_app/immutable/chunks/day09-b54bcb84.js",
+    "src": "src/content/100days-of-code/logs/day09.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day08.md": {
+    "file": "_app/immutable/chunks/day08-b30cc441.js",
+    "src": "src/content/100days-of-code/logs/day08.md",
+    "isDynamicEntry": true
+  },
+  "src/content/100days-of-code/logs/day19.md": {
+    "file": "_app/immutable/chunks/day19-d993e403.js",
+    "src": "src/content/100days-of-code/logs/day19.md",
     "isDynamicEntry": true
   },
   "_p5.min-7dea8225.js": {

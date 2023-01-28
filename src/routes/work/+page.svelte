@@ -13,13 +13,9 @@
 		// querySelectorAll => NodeListOf<HTMLElement>, which is an array-like structure but misses array features
 		// Array.from() => casts that array-like structure as an array
 		// finaly we need to recast each array element as HTMLElement eg Array<HTMLElement>
-		const cards = Array.from(document.querySelectorAll('.card')) as Array<HTMLElement>;
-		Tilt.init(cards, {
-			scale: 0.9,
-			perspective: 500,
-			glare: true,
-			'max-glare': 0.5
-		});
+		const cardsEl: NodeListOf<HTMLElement> = document.querySelectorAll('.card')
+		const cardsArr = Array.from(cardsEl) as Array<HTMLElement>;
+		Tilt.init(cardsArr);
 	});
 </script>
 

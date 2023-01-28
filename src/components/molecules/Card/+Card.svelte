@@ -73,7 +73,7 @@
 		transition: opacity 500ms linear;
 	}
 	.hologram:hover > .card-container {
-		color: white;
+		color: var(--theme-color-mango);
 		transition: color 500ms linear;
 	}
 	@keyframes shine {

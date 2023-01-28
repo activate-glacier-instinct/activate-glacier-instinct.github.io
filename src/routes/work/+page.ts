@@ -14,6 +14,5 @@ export const load: PageLoad = async function load() {
     }
 };
 
-
 export const prerender = true;
 export const trailingSlash = 'always';

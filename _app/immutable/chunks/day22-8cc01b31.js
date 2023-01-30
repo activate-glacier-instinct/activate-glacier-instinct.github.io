@@ -1,4 +1,4 @@
-const o={},t=`<h2>Day 22/100</h2>
+const o={},n=`<h2>Day 22/100</h2>
 <hr>
 <p>Date: 28/01/23</p>
 <hr>
@@ -20,8 +20,6 @@ const o={},t=`<h2>Day 22/100</h2>
 </ul>
 <h3><strong>Link to work:</strong></h3>
 <ul>
-<li><a href="https://github.com/activate-glacier-instinct/activate-glacier-instinct.github.io">Portfolio - Repo</a></li>
-<li><a href="https://activate-glacier-instinct.github.io/">Portfolio - Deployment</a></li>
-<li><a href="https://www.figma.com/file/EACX3PwCLrEc2q3oHRtxU4/Portfolio---Moodboard?node-id=0%3A1">Portfolio - Design Moodboard</a></li>
+<li><a href="https://activate-glacier-instinct.github.io/">Portfolio</a></li>
 </ul>
-`;export{o as attributes,t as html};
+`;export{o as attributes,n as html};

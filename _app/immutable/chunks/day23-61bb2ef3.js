@@ -14,7 +14,7 @@ const t={},e=`<h2>Day 23/100</h2>
 </ul>
 <h3><strong>Thoughts</strong>:</h3>
 <ul>
-<li></li>
+<li>The port from hardhat seems really easy, but I will need to consider tests a bit more</li>
 </ul>
 <h3><strong>Link to work:</strong></h3>
 <ul>

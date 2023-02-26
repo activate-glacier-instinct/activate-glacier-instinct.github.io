@@ -11,7 +11,7 @@ const t={},e=`<h2>Day 39/100</h2>
 <li>Reployed the dApp</li>
 <li>Minted the NFT and passed the lesson on LW3</li>
 </ul>
-<h2><strong>Thoughts</strong>:</h2>
+<h3><strong>Thoughts</strong>:</h3>
 <ul>
 <li>Surprised at just how early I am vs the roadmap, so I'm going to finish the FlipsideCrypto dashboard for the next few days</li>
 <li>Admin: made <code>plan.md</code> be the current tracker of the challenge, whilst <code>roadmap.md</code> is the future looking document.</li>
